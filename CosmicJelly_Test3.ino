@@ -7,7 +7,6 @@ FASTLED_USING_NAMESPACE
 // Test version 3
 // Paul Guthrie, july 2017
 
-// still working on the prototype, so the strip lengths are relatively small (55 in this test)
 
 // forward function declarations////////////////////
 void BreatheFast(CRGB cfast) ;
