@@ -208,6 +208,7 @@ void Pulse() {
 
 void PulseAndGlitter() {
 // modulates the brightness of entire sculpture and adds white sparkles randomly
+// addGlitter is taken directly from Mark Kriegsman's Github  
 
 //controls
   int idir = 1 ;
