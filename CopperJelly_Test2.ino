@@ -630,7 +630,7 @@ void ColorFountain()
            
         if ( ( Btops[j] - (Bwidth - 1 ) )== NUM_LEDS_PER_LEG - 1 ) {
           int icc = Bcolor[j] % 15 ;
-          CRGB capcolor = currentPalette[icc] ;
+          CRGB capcolor = currentRGBPalette[icc] ;
           fill_solid(CJCap_A, NUM_LEDS_PER_CAP , capcolor ) ;
           fill_solid(CJCap_B, NUM_LEDS_PER_CAP , capcolor ) ;
           fill_solid(CJCap_C, NUM_LEDS_PER_CAP , capcolor ) ;
